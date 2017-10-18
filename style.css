@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Oregano', cursive;
+  margin: 0;
+  font-size: 20px;
+  color: #040505;
+  line-height: 1.6;
+}
+
+#showcase {
+  background-image: url('images/showcase.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#showcase .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #040505;
+  border: #040505 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#showcase .button:hover {
+  background: #040505;
+  color: #E5F3FF;
+  transition: 0.5s;
+}
+
+#section-a {
+  padding: 50px;
+  background: #FFE9BE;
+  color: #FF8F35;
+  text-align: center;
+}
+
+#section-a h1 {
+  font-size: 40px;
+}
+
+#section-b {
+  padding: 50px;
+  background: #FFBA35;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#section-c {
+  display: flex;
+}
+
+#section-c div {
+  padding: 40px;
+}
+
+#section-c .box1, #section-c .box3 {
+  background: #FFE9BE;
+  color: #FF8F35;
+  flex: 1;
+}
+
+#section-c .box2 {
+  background: #FF8F35;
+  color: #E5F3FF;
+  flex: 2;
+}
